@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-blockchain"
+version = "0.1.0"
+description = ""
+authors = ["Ruslan <shaggybackend@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_blockchain"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
